@@ -1,7 +1,23 @@
 //BotVille is a AI experiment, trying to create a living city
 
-
-int main()
+#include <SDL.h>
+#include <iostream>
+#include "SpriteBuffer.h"
+int main(int argc, char* argv[])
 {
-	return 0;
+
+
+	if (SDL_Init(SDL_INIT_VIDEO))
+	{
+		std::cout << "Could not initialize SDL: " << SDL_GetError();
+		system("Pause");
+		return EXIT_FAILURE;
+	}
+
+	SpriteBuffer spriteBuffer();
+
+	system("Pause");
+	return EXIT_SUCCESS;
+	
+
 }
