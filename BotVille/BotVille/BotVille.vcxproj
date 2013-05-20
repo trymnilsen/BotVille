@@ -80,10 +80,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="GameLoop.cpp" />
     <ClCompile Include="SpriteBuffer.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AppConstants.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="GameLoop.h" />
     <ClInclude Include="SpriteBuffer.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
