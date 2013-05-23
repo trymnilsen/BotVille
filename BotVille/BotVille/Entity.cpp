@@ -9,5 +9,6 @@ Entity::~Entity()
 }
 void Entity::drawEntity()
 {
+
 }
 
